@@ -1,0 +1,110 @@
+/* css reset
+* {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F9F5EB;
+}
+
+.page-title {
+    background-color: #8b4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #A0522D;
+    border-bottom: 2px solid #DEB887;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.recipe-info {
+    background-color: #FFF8DC;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-info p {
+    margin: 10px;
+}
+
+.instructions, .ingredients, .tips {
+    background-color: #f4f1e6;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ingredients li {
+    padding: 5px 0;
+}
+
+.instructions li {
+    padding: 8px 0;
+}
+
+.tips li:hover {
+    background-color: #FFF8DC;
+    transition: background-color 0.4s ease;
+}
+
+.related-recipes {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.related-recipes a {
+    text-decoration: none;
+    color: #8B4513;
+}
+
+.related-recipes a:hover {
+    text-decoration:underline;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
+}
